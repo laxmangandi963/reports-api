@@ -33,6 +33,26 @@ public class ReportRestController {
 		List<String> statuses = service.getUniquePlanStatuses();
 		return new ResponseEntity<>(statuses, HttpStatus.OK);
 	}
+	@GetMapping("/statuses")
+	public ResponseEntity<List<String>> getPlanStatuses() {
+		List<String> statuses = service.getUniquePlanStatuses();
+		return new ResponseEntity<>(statuses, HttpStatus.OK);
+	}
+	@GetMapping("/statuses")
+	public ResponseEntity<List<String>> getPlanStatuses() {
+		List<String> statuses = service.getUniquePlanStatuses();
+		return new ResponseEntity<>(statuses, HttpStatus.OK);
+	}
+	@GetMapping("/statuses")
+	public ResponseEntity<List<String>> getPlanStatuses() {
+		List<String> statuses = service.getUniquePlanStatuses();
+		return new ResponseEntity<>(statuses, HttpStatus.OK);
+	}
+	@GetMapping("/statuses")
+	public ResponseEntity<List<String>> getPlanStatuses() {
+		List<String> statuses = service.getUniquePlanStatuses();
+		return new ResponseEntity<>(statuses, HttpStatus.OK);
+	}
 
 	@PostMapping("/search")
 	public ResponseEntity<List<SearchResponse>> search(@RequestBody SearchRequest request) {
